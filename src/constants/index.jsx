@@ -25,7 +25,7 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 // src/constants.js
 
 export const navItems = [
-  { label: "Home", href: "/idea" },
+  { label: "Home", href: "/" },
   { label: "Idea", href: "/researches" },
   { label: "About Us", href: "/about-us" },
   { label: "Our Future", href: "/our-future" },

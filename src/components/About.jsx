@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="lg:w-1/2 px-6 lg:px-12">
         <h1 className="text-4xl sm:text-6xl lg:text-8xl text-center lg:text-left tracking-wide">
           About
-          <span className="text-blue-500 bg-clip-text"> Us</span>
+          <span className="text-blue-600 bg-clip-text"> us</span>
         </h1>
         <p className="mt-10 text-lg text-center lg:text-left text-neutral-500 max-w-4xl">
           Scholity Technologies focuses on enhancing healthcare systems, 

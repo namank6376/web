@@ -1,6 +1,7 @@
 // src/App.jsx
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Navbar from "./components/Navbar";
 import Idea from "./pages/Idea";
 import Researches from "./pages/Researches";
@@ -19,7 +20,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/idea" element={<Idea />} />
+        <Route path="/" element={<Idea />} />
         <Route path="/researches" element={<Researches />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/our-future" element={<OurFuture />} />
